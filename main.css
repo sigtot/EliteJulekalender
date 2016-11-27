@@ -129,6 +129,50 @@ input{
 
 #topBar{
 	background:#fff;
-	height:50px;
-	border-radius: 0px 0px 5px 5px;
+	height:60px;
+	border-radius: 0px 0px 10px 10px;
+	font-weight:bold;
+	line-height:60px;
+	padding-left:200px;
+	box-shadow:0px 3px 0px rgba(255,255,255,0.4);
+}
+
+#topBar h3{
+	color:#4caf50;
+	font-size:40px;
+	text-shadow:0px 1px 1px rgba(100,0,0,0.5);
+}
+
+.luke{
+	height:150px;
+	width:150px;
+	border-radius:5px;
+	background:#66bb6a;
+	box-shadow:0px 3px 0px rgba(244,67,54,0.8), 0px 3px 3px rgba(244,67,54,0.5);
+	display:inline-block;
+	margin-left:50px;
+	margin-right:50px;
+	margin-top:30px;
+	margin-bottom:30px;
+	color:#fff;
+	font-size:50px;
+	line-height:150px;
+	font-weight:bolder;
+	text-shadow:0px 1px 0px rgba(244,67,54,0.5), 0px 1px 5px rgba(244,67,54,0.5);
+	transition:0.5s;
+	cursor:default;
+}
+
+#innerInnerWrapper{
+	text-align:center;
+}
+
+.openable:hover{
+	box-shadow:0px 3px 0px rgba(244,67,54,0.9), 0px 3px 10px rgba(244,67,54,0.8);
+}
+
+.openable{
+	background:#43a047;
+	cursor:pointer;
+	background-size:150px;
 }
