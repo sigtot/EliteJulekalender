@@ -1,8 +1,7 @@
 var innerWrapper = document.getElementById("innerInnerWrapper");
 
 var d = new Date();
-//var n = d.getDate();
-n = 12;
+var n = d.getDate();
 
 window.onload = function(){
 	// Kjører når dokumentet er lastet
