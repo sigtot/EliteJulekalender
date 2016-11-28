@@ -12,7 +12,7 @@ window.onload = function(){
 		var lukeText = document.createTextNode(i);
 		luke.appendChild(lukeText);
 		var cls = "luke";
-		if (n >= i) cls += " openable";
+		if (n >= i && n <= 27) cls += " openable";
 		luke.className = cls;
 		luke.setAttribute("onclick","openLuke(this)")
 		innerWrapper.appendChild(luke);
@@ -23,7 +23,7 @@ function openLuke(self){
 	today = self.id.substr(4);
 	console.log(n);
 	console.log(today);
-	if (today <= n){
+	if (today <= n && n <= 27){
 		self.style.backgroundImage = "url(img/" + today + ".jpg)";
 		self.setAttribute("onclick","expand(this)");
 	}
